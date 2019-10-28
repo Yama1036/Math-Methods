@@ -410,11 +410,19 @@ public class frmMath extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
-        // TODO add your handling code here:
+        int num1 = keyedInput.txtValue1a();
+        int num2 = keyedInput.txtValue1b();
+        
+        lblAns1.setText(""+Math.max(num1, num2)+"");
+        
     }//GEN-LAST:event_btn1ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
-        // TODO add your handling code here:
+        int num1 = keyedInput.txtValue2a();
+        int num2 = keyedInput.txtValue2b();
+        
+        lblAns2.setText(""+Math.min(num1, num2)+"");
+        
     }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
