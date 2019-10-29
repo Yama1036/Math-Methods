@@ -414,7 +414,6 @@ public class frmMath extends javax.swing.JFrame {
         int num2 = keyedInput.txtValue1b();
         
         lblAns1.setText(""+Math.max(num1, num2)+"");
-        
     }//GEN-LAST:event_btn1ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
@@ -426,27 +425,47 @@ public class frmMath extends javax.swing.JFrame {
     }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
-        // TODO add your handling code here:
+        int num1 = keyedInput.txtValue3a;
+        int num2 = keyedInput.txtValue3b;
+        
+        lblAns3.setText(""+Math.pow(num1, num2)+"");
+    
     }//GEN-LAST:event_btn3ActionPerformed
 
     private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
-        // TODO add your handling code here:
+        int num1 = keyedInput.txtValue4a;
+        int num2 = keyedInput.txtValue4b;
+       
+        lblAns4.setText(""+Math.hypot(num1, num2)+"");
+        
     }//GEN-LAST:event_btn4ActionPerformed
 
     private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
-        // TODO add your handling code here:
+        double num1 = keyedInput.txtValue5;
+            
+        lblAns5.setText(""+Math.ceiling(num1)+"");
+    
     }//GEN-LAST:event_btn5ActionPerformed
 
     private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
-        // TODO add your handling code here:
+        double num1 = keyedInput.txtValue6;
+        
+        lblAns6.setText(""+Math.floor(num)+"");
+    
     }//GEN-LAST:event_btn6ActionPerformed
 
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
-        // TODO add your handling code here:
+        double num1 = keyedInput.txtValue7;
+        
+        lblAns7.setText(""+Math.sqrt(num1)+"");
+   
     }//GEN-LAST:event_btn7ActionPerformed
 
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
-        // TODO add your handling code here:
+        double num1 = keyedInput.txtValue8;
+        
+        lblAns8.setText(""+(Math.toRadians(num1)+"");
+    
     }//GEN-LAST:event_btn8ActionPerformed
 
     private void txtValue1aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtValue1aActionPerformed
